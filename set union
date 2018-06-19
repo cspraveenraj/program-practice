@@ -1,0 +1,7 @@
+n=int(input())
+m=set(input().split())
+s=int(input())
+r=set(input().split())
+g=(m.difference(r))
+e=(g.union(r))
+print(len(e)
