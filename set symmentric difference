@@ -1,0 +1,6 @@
+n=int(input())
+m=set(input().split())
+s=int(input())
+r=set(input().split())
+g=m^r
+print(len(g))
