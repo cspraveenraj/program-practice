@@ -1,0 +1,5 @@
+s= input ()
+i=(s.split())
+i = map(int, i)
+t=tuple (i)
+print (hash(t))
