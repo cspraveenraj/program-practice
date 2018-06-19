@@ -1,0 +1,13 @@
+int(input())
+m=input().split()
+mint= (set(list(map(int,m))))
+int(input())
+n=input().split()
+nint= (set(list(map(int,n))))
+r=[ ]
+for i in list(mint.difference(nint)):
+    r.append(i)
+for j in list(nint.difference(mint)):
+    r.append(j)
+for k in sorted(r):
+    print(k)
