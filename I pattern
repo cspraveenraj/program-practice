@@ -1,0 +1,8 @@
+d=int(input())
+for i in range(d):
+    for j in range(d):
+        if (i==0 or i==4 or j==3 ):
+            print ("#",end=" ")
+        else:
+            print(end=" ")
+    print()    
