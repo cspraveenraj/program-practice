@@ -1,0 +1,8 @@
+a=0
+b=1
+while b<20:
+    print(b,end=" ")
+    t=a
+    a=b
+    b=b+t
+    
