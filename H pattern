@@ -1,0 +1,10 @@
+n=int(input())
+m=int(input())
+for i in range(n):
+    for j in range(m):
+        if((j==0 or j==3) or (i==3)):
+            print("2",end=" ")
+        else:
+            print(end="  ")
+    print()
+            
