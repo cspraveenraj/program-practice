@@ -1,0 +1,37 @@
+class Student():
+    
+    def details(self,mark1,mark2,mark3,name):
+        self.m1=mark1
+        self.m2=mark2
+        self.m3=mark3
+        self.n=name
+        
+    def _print(self):
+        print("Enter the mark1:",self.m1)
+        print("Enter the mark2:",self.m2)
+        print("Enter the mark3:",self.m3)
+        print("Enter the name:",self.n)
+    
+    def loop(self,passmark=40):
+        self.pm=passmark
+        if(self.m1>self.pm):
+            print( "True")
+        else:
+            print( "False")
+                
+        if(self.m2>self.pm):
+            print( "True")            
+        else:
+            print( "False")
+            
+        if(self.m3>self.pm):
+            print( "true")
+        else:
+            print( "False")       
+        
+    
+s=Student()
+
+s.details(30,35,50,'sathish')
+s._print()
+s.loop()
